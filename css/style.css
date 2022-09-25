@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+
+body{
+    padding: 3rem;
+    height: 95vh;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+
+
+.palette{
+
+    height: 100%;
+    width: auto;
+
+
+
+   
+    background-size: cover;
+
+    background-color: rgb(211, 211, 211);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5%;
+   
+
+
+}
+
+
+.palette__item-1{
+    position: relative;
+    height: 45rem;
+    width: 34rem;
+    border: 1px solid  #D7B5F7 ;
+    border-top: 3px solid #D7B5F7;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+    
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    border-bottom-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    margin: 3rem;
+    
+}
+
+
+
+
+.palette__item-name{
+
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 3rem;
+
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+
+
+
+}
+.palette__item-name:hover{
+    opacity: 1;
+    
+
+
+}
+
+.palette__color-style{
+    height: 8rem;
+    z-index: 0;
+    flex:1;   
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    overflow: hidden;
+    transition: all 1s ease;
+
+}
+
+
+
+.palette__color1{
+    background-color: #264653;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+    transform: 0.3s;
+ 
+    
+   
+
+    
+
+}
+
+
+.palette__color-style:hover{
+    flex: 4;
+    opacity: 1;
+
+}
+.palette__color-name:after{
+
+    display: flex;
+}
+.palette__color2{
+    background-color: #2a9d8f;
+}
+.palette__color3{
+    background-color: #f4a261;
+
+}   
+.palette__color4{
+    background-color: #e9c46a;
+
+}
+.palette__color5{
+    background-color: #e76f51;
+
+
+
+  
+
+}
+
+.palette__desc{
+    padding: 1rem;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+
+
+
+
+
+
+.palette__color-style span{
+    opacity: 0;
+ 
+
+    
+}
+
+.palette__color6{
+    background-color: #dad7cd;
+}
+
+.palette__color7{
+    background-color: #a3b18a;
+}
+.palette__color8{
+    background-color: #588157;
+}
+
+
+.palette__color9{
+    background-color: #3a5a40;
+}
+.palette__color10{
+    background-color: #344e41;
+}
+
+
+.palette__color11{
+    background-color: #03045e;
+
+}
+
+.palette__color12{
+    background-color: #023e8a;
+    
+}
+
+
+.palette__color13{
+    background-color: #0077b6;
+    
+}
+
+.palette__color14{
+    background-color: #0096c7;
+    
+}
+
+.palette__color15{
+    background-color: #00b4d8;
+    
+}
+
+
+.palette__color16{
+    background-color: #22223b;
+}
+
+.palette__color17{
+    background-color: #4a4e69;
+}
+.palette__color18{
+    background-color: #9a8c98;
+}
+.palette__color19{
+    background-color: #c9ada7;
+}
+.palette__color20{
+    background-color: #f2e9e4;
+}
+
+.palette__color21{
+    background-color: #000000;
+
+}
+.palette__color22{
+    background-color: #14213D;
+    
+}
+.palette__color23{
+    background-color: #FCA311;
+    
+}
+.palette__color24{
+    background-color: #E5E5E5;
+    
+}
+.palette__color25{
+    background-color: #ffffff;
+    
+}
+
+.palette__color26{
+    background-color: #cb997eff;
+
+}
+.palette__color27{
+    background-color: #ddbea9ff;
+    
+}
+.palette__color28{
+    background-color: #ffe8d6ff;
+    
+}
+.palette__color29{
+    background-color: #b7b7a4ff;
+    
+}
+.palette__color30{
+    background-color: #a5a58dff;
+    
+}
+
+.palette__color31{
+
+    background-color: #641220ff;
+
+}
+.palette__color32{
+
+    background-color: #85182aff;
+    
+}
+.palette__color33{
+
+    background-color: #a71e34ff;
+    
+}
+.palette__color34{
+
+    background-color: #bd1f36ff;
+    
+}
+.palette__color35{
+
+    background-color: #da1e37ff;
+    
+}
